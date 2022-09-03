@@ -1,11 +1,11 @@
-import './App.css';
-import './book.scss';
-import Book11 from './components/Book11';
+// import './App.css';
+import './book3.scss';
+import Book3 from './components/Book3';
 
 function App() {
   return (
     <>
-      <Book11 />
+      <Book3 />
     </>
   );
 }

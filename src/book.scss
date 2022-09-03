@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    // height: 100vh;
   }
   
   .wrapper {
@@ -21,6 +21,7 @@
 
   .rotate {
     transform: rotateY(180deg);
+
   }
   
   .front,
@@ -46,20 +47,18 @@
     // background-image: url("https://media.istockphoto.com/vectors/peach-color-wild-roses-garden-party-invitation-vector-id1334458541?k=20&m=1334458541&s=612x612&w=0&h=5TORMLqvX_3YehWQy_icn-AM1pfazHWUSVqjE3UdtHI=")
   }
 
-  .front .back > img{
-    width: fit-content
-  }
+//   .front .back > img{
+//     width: fit-content
+//   }
 
-  .page-image{
-    width: fit-content;
-  }
-  @media (max-width: 600px) {
-    .wrapper {
-        height: 350px;
-        width: 225px;
-    }
-     img{
-        height: 100%;
-        width: 100%;
-    }
-  }
+ 
+//   @media (max-width: 600px) {
+//     .wrapper {
+//         height: 350px;
+//         width: 225px;
+//     }
+//      img{
+//         height: 100%;
+//         width: 100%;
+//     }
+//   }

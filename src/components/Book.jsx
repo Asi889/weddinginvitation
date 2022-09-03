@@ -26,7 +26,7 @@ const Page = React.forwardRef((props, ref) => {
 function Book11 () {
 
     return (
-      <div>
+      <div className="fliper">
             <HTMLFlipBook
               width={250}
               height={333}
